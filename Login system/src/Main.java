@@ -14,8 +14,13 @@
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		//create instance
+		
+		IDandPassword idandPasswords = new IDandPassword();
+		
+		
+		//pass the method into argument
+		LoginPage loginPage = new LoginPage(idandPasswords.getLogininfo());
 	}
 
 }
