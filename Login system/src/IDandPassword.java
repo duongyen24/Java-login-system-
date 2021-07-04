@@ -12,7 +12,7 @@ public class IDandPassword {
 	}
 	
 	//create method to call logininfo
-	protected HashMap getLogininfo() {
+	public HashMap getLogininfo() {
 		return logininfo;
 	}
 }
